@@ -191,10 +191,10 @@ let Dubai = {
       ); // pass in min customers. pass in max customers.;
       //console.log(this.customersPerHour[index]);
     }
-    // lets see if we r even close. lets add some debug..... string literal
+   
   },
 
-  // now based on an average number of customers for a given hr, we need to us that value from array rando number along with data given for avg cookies per person and calcualte a guesstimate at number of cookies
+  // now based on an average number of customers for a given hr, we need to us that value from array random number along with data given for avg cookies per person and calcualte a guesstimate at number of cookies
   //2
   getCookiesSoldPerHour: function () {
     // initialize an ongoing total
@@ -281,7 +281,7 @@ let Paris = {
   //3
   render() {
     this.getCookiesSoldPerHour(); //call a function
-    const unorderedList = document.getElementById("Paris"); //grab Seattle in HTML
+    const unorderedList = document.getElementById("Paris"); 
     for (let i = 0; i < 15; i++) {
       const listItem = document.createElement("li");
       // 6am: 16 cookies
@@ -321,10 +321,10 @@ let Lima = {
       ); // pass in min customers. pass in max customers.;
       //console.log(this.customersPerHour[index]);
     }
-    // lets see if we r even close. lets add some debug..... string literal
+   
   },
 
-  // now based on an average number of customers for a given hr, we need to us that value from array rando number along with data given for avg cookies per person and calcualte a guesstimate at number of cookies
+  // now based on an average number of customers for a given hr, we need to us that value from array random number along with data given for avg cookies per person and calcualte a guesstimate at number of cookies
   //2
   getCookiesSoldPerHour: function () {
     // initialize an ongoing total
@@ -341,7 +341,7 @@ let Lima = {
       // add to total
       this.totalDailyCookies += dailyCookies; //adding to the daily cookies
     }
-    console.log(this.cookiesSoldPerHour); //code works!!
+    console.log(this.cookiesSoldPerHour); 
   },
   //3
   render() {
