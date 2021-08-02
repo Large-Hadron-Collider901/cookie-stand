@@ -80,7 +80,7 @@ let Seattle = {
     this.getCookiesSoldPerHour(); //call the function
     // Declare the variable and named it after the corresponding HTML element
     const unorderedList = document.getElementById("Seattle");
-    // This is how we pull our buisness hours
+    // This is how we pull our business hours
     for (let i = 0; i < 15; i++) {
       // Declare another variable
       const listItem = document.createElement("li");
@@ -211,12 +211,12 @@ let Dubai = {
       // add to total
       this.totalDailyCookies += dailyCookies; //adding to the daily cookies
     }
-    console.log(this.cookiesSoldPerHour); //code works!!
+    console.log(this.cookiesSoldPerHour); 
   },
   //3
   render() {
     this.getCookiesSoldPerHour(); //call a function
-    const unorderedList = document.getElementById("Dubai"); //grab Seattle in HTML
+    const unorderedList = document.getElementById("Dubai"); 
     for (let i = 0; i < 15; i++) {
       const listItem = document.createElement("li");
       // 6am: 16 cookies
@@ -259,7 +259,7 @@ let Paris = {
     // lets see if we r even close. lets add some debug..... string literal
   },
 
-  // now based on an average number of customers for a given hr, we need to us that value from array rando number along with data given for avg cookies per person and calcualte a guesstimate at number of cookies
+  // now based on an average number of customers for a given hr, we need to us that value from array random number along with data given for avg cookies per person and calcualte a guesstimate at number of cookies
   //2
   getCookiesSoldPerHour: function () {
     // initialize an ongoing total
@@ -276,7 +276,7 @@ let Paris = {
       // add to total
       this.totalDailyCookies += dailyCookies; //adding to the daily cookies
     }
-    console.log(this.cookiesSoldPerHour); //code works!!
+    console.log(this.cookiesSoldPerHour); 
   },
   //3
   render() {
@@ -346,7 +346,7 @@ let Lima = {
   //3
   render() {
     this.getCookiesSoldPerHour(); //call a function
-    const unorderedList = document.getElementById("Lima"); //grab Seattle in HTML
+    const unorderedList = document.getElementById("Lima"); =====------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------y
     for (let i = 0; i < 15; i++) {
       const listItem = document.createElement("li");
       // 6am: 16 cookies
