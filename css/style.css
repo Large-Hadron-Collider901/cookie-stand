@@ -5,8 +5,10 @@
 
 html, body {
     text-align: center;
-	margin: auto;
-	padding: auto;
+    width: 1000px;
+    height: 3000px;
+    margin: auto;
+    padding: auto;
     font-family: 'Nunito', sans-serif;
   
     
