@@ -346,7 +346,7 @@ let Lima = {
   //3
   render() {
     this.getCookiesSoldPerHour(); //call a function
-    const unorderedList = document.getElementById("Lima"); =====------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------y
+    const unorderedList = document.getElementById("Lima"); 
     for (let i = 0; i < 15; i++) {
       const listItem = document.createElement("li");
       // 6am: 16 cookies
